@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>PanoramiX — Scrolling Screenshots for Windows</title>
+
+  <meta
+    name="description"
+    content="PanoramiX captures any scrollable area in Windows and combines it into one continuous image."
+  >
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #172033;
+      background: #f6f8fb;
+      line-height: 1.6;
+    }
+
+    header {
+      padding: 80px 20px;
+      text-align: center;
+      color: white;
+      background:
+        radial-gradient(circle at top left, #1d9aaa, transparent 40%),
+        linear-gradient(135deg, #071d2b, #0b4651);
+    }
+
+    header h1 {
+      margin: 0 0 16px;
+      font-size: clamp(42px, 8vw, 74px);
+    }
+
+    header p {
+      max-width: 720px;
+      margin: 0 auto 32px;
+      font-size: 21px;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 14px 25px;
+      margin: 6px;
+      border-radius: 10px;
+      background: white;
+      color: #073b45;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .button.secondary {
+      border: 1px solid rgba(255,255,255,0.5);
+      background: transparent;
+      color: white;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: auto;
+      padding: 55px 20px;
+    }
+
+    section {
+      margin-bottom: 70px;
+    }
+
+    h2 {
+      font-size: 34px;
+      text-align: center;
+      margin-bottom: 28px;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+      gap: 18px;
+    }
+
+    .card {
+      padding: 24px;
+      border-radius: 16px;
+      background: white;
+      box-shadow: 0 8px 24px rgba(20, 35, 55, 0.08);
+    }
+
+    .steps {
+      max-width: 620px;
+      margin: auto;
+    }
+
+    .steps li {
+      margin-bottom: 14px;
+      padding-left: 8px;
+    }
+
+    .notice {
+      max-width: 750px;
+      margin: auto;
+      padding: 22px;
+      border-left: 5px solid #d79619;
+      border-radius: 10px;
+      background: #fff7e5;
+    }
+
+    .hebrew {
+      direction: rtl;
+      text-align: right;
+      padding: 35px;
+      border-radius: 18px;
+      background: white;
+      box-shadow: 0 8px 24px rgba(20, 35, 55, 0.08);
+    }
+
+    .hebrew h2 {
+      text-align: right;
+    }
+
+    .center {
+      text-align: center;
+    }
+
+    footer {
+      padding: 30px 20px;
+      text-align: center;
+      color: #657080;
+    }
+
+    footer a {
+      color: #126979;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>PanoramiX</h1>
+
+    <p>
+      Capture any scrollable area in Windows and turn it into one continuous image.
+      Works with browsers, IDEs, Terminal, CMD, logs, chats and more.
+    </p>
+
+    <a
+      class="button"
+      href="https://github.com/dasi-tr/PanoramiX-Releases/releases/latest"
+    >
+      Download for Windows
+    </a>
+
+    <a
+      class="button secondary"
+      href="https://github.com/dasi-tr/PanoramiX-Releases"
+    >
+      View on GitHub
+    </a>
+  </header>
+
+  <main>
+
+    <section>
+      <h2>Capture more than what fits on screen</h2>
+
+      <div class="cards">
+        <div class="card">
+          <h3>Browsers</h3>
+          <p>Capture long pages, conversations and AI responses.</p>
+        </div>
+
+        <div class="card">
+          <h3>IDEs</h3>
+          <p>Capture long code files and development environments.</p>
+        </div>
+
+        <div class="card">
+          <h3>Terminal and CMD</h3>
+          <p>Capture long outputs, commands and logs.</p>
+        </div>
+
+        <div class="card">
+          <h3>Any scrollable window</h3>
+          <p>Select an area, scroll and let PanoramiX combine the result.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>How it works</h2>
+
+      <ol class="steps">
+        <li>Open PanoramiX.</li>
+        <li>Select the area you want to capture.</li>
+        <li>Scroll through the content.</li>
+        <li>Press Enter or Finish.</li>
+        <li>The complete image is copied to your clipboard.</li>
+      </ol>
+    </section>
+
+    <section>
+      <div class="notice">
+        <strong>Windows security notice</strong>
+
+        <p>
+          PanoramiX is currently in beta and is not digitally signed yet.
+          Windows may display a warning on first launch.
+        </p>
+
+        <p>
+          In that case, select:
+          <strong>More info → Run anyway</strong>
+        </p>
+      </div>
+    </section>
+
+    <section class="hebrew">
+      <h2>PanoramiX בעברית</h2>
+
+      <p>
+        <strong>PanoramiX</strong> הוא כלי ל־Windows שמצלם אזור ארוך
+        שאפשר לגלול בו והופך אותו לתמונה אחת רציפה.
+      </p>
+
+      <p>
+        הוא עובד בדפדפנים, בסביבות פיתוח, ב־Terminal, ב־CMD,
+        בלוגים, בצ׳אטים ובחלונות נוספים שניתן לגלול בהם.
+      </p>
+
+      <h3>איך משתמשים?</h3>
+
+      <ol>
+        <li>פותחים את PanoramiX.</li>
+        <li>מסמנים את האזור שרוצים לצלם.</li>
+        <li>גוללים עד סוף התוכן.</li>
+        <li>לוחצים על Enter או Finish.</li>
+        <li>התמונה המלאה מועתקת אוטומטית ללוח ההעתקה.</li>
+      </ol>
+
+      <p class="center">
+        <a
+          class="button"
+          href="https://github.com/dasi-tr/PanoramiX-Releases/releases/latest"
+          style="background:#0b5967; color:white;"
+        >
+          הורדה ל־Windows
+        </a>
+      </p>
+    </section>
+
+    <section class="center">
+      <h2>PanoramiX is currently in beta</h2>
+
+      <p>
+        Bug reports, suggestions and feedback are welcome.
+      </p>
+
+      <a
+        href="https://github.com/dasi-tr/PanoramiX-Releases/issues"
+      >
+        Report an issue on GitHub
+      </a>
+    </section>
+
+  </main>
+
+  <footer>
+    Built by Hadassa Goodman ·
+    <a href="https://www.linkedin.com/in/hadassa-goodman/">
+      LinkedIn
+    </a>
+  </footer>
+
+</body>
+</html>
