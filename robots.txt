@@ -1,7 +1,4 @@
 User-agent: *
 Allow: /
 
-User-agent: OAI-SearchBot
-Allow: /
-
-Sitemap: https://dasi-tr.github.io/dasi-tr.PanoramiX/sitemap.xml
+Sitemap: https://hymmshot.com/sitemap.xml
