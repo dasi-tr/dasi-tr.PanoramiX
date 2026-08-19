@@ -1,26 +1,28 @@
-# HymmShot
+# HymmShot Website
 
-HymmShot is a Windows scrolling screenshot tool. It captures a selected scrollable area as one continuous image, then opens the result in a built-in editor for cropping, pixelation, highlighting, drawing, annotations and PDF export.
+Static staging/test website for HymmShot Public Beta, a Windows scrolling screenshot and image editing tool.
 
-## Website
+## Product
 
-- Production: https://hymmshot.com/
-- Windows download: https://github.com/dasi-tr/PanoramiX-Releases/releases/latest/download/PanoramiX.zip
+- Scrolling capture in Windows applications
+- Capture Issue Review with detected locations, Previous / Next, Hide issues and Recapture
+- Open and edit existing PNG images
+- Privacy-focused pixelation/blur, crop, highlight, drawing, shapes, markers and text
+- Image saving and continuous single-page PDF export
 
-## Website files
+## Download
 
-- `index.html` — optimized homepage
-- `assets/` — product images, demo video, social preview and icons
-- `docs.html` — product documentation
-- `security.html` — official download and Windows warning
+https://apps.microsoft.com/detail/9n6580jqmpw8
+
+## Staging safety
+
+This repository is for staging and review. It intentionally has no `CNAME` and must not be pointed at `hymmshot.com`. Canonical metadata continues to describe the intended production domain.
+
+## Files
+
+- `index.html` — homepage and embedded demo media
+- `docs.html` — HymmShot Public Beta documentation
+- `security.html` — official Microsoft Store and security reporting information
 - `privacy.html` — website privacy notice
-- `changelog.html` — current beta feature history
-- `robots.txt` and `sitemap.xml` — search-engine discovery
-- `manifest.webmanifest` — web-app metadata
-- `CNAME` — custom domain configuration
-
-## Deployment
-
-This repository is published with GitHub Pages. Commit the files to the `main` branch and keep `CNAME` set to `hymmshot.com`. GitHub Pages will redeploy the site automatically.
-
-The release repository and ZIP filename still use the historical PanoramiX name. Those technical URLs are intentionally preserved so existing downloads do not break.
+- `changelog.html` — Public Beta release notes
+- `version.json` — current product version
