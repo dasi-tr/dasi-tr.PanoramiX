@@ -1,28 +1,24 @@
-# HymmShot Website
+# hymmshot.com
 
-Static staging/test website for HymmShot Public Beta, a Windows scrolling screenshot and image editing tool.
+Website for the HymmShot family of Windows screenshot tools.
 
-## Product
+- `index.html` — family home page
+- `hymmscroll/` — HymmScroll product page (scrolling screenshots)
+- `hymmstack/` — HymmStack product page (multi-area capture)
+- `about.html` — about the studio and contact
+- `docs.html`, `security.html`, `privacy.html`, `changelog.html` — support pages
+- `assets/` — stylesheet, icons, share images, screenshots
+- `hymmscroll-demo.mp4`, `hymmstack-demo.mp4` — product demos
+- `sitemap.xml`, `robots.txt` — search-engine discovery
+- `llms.txt` and `*.md` — plain-text summaries for AI assistants and answer engines
 
-- Scrolling capture in Windows applications
-- Capture Issue Review with detected locations, Previous / Next, Hide issues and Recapture
-- Open and edit existing PNG images
-- Privacy-focused pixelation/blur, crop, highlight, drawing, shapes, markers and text
-- Image saving and continuous single-page PDF export
+Store links used on the site:
+- HymmScroll: https://apps.microsoft.com/detail/9n6580jqmpw8
+- HymmStack: https://apps.microsoft.com/detail/9p1lzh1rvsdb
 
-## Download
+Published with GitHub Pages from this repository. The live repository should retain its `CNAME` mapping for `hymmshot.com`; the supplied ZIP did not contain that file, so this rebuild does not invent one.
 
-https://apps.microsoft.com/detail/9n6580jqmpw8
 
-## Staging safety
+## Deployment note
 
-This repository is for staging and review. It intentionally has no `CNAME` and must not be pointed at `hymmshot.com`. Canonical metadata continues to describe the intended production domain.
-
-## Files
-
-- `index.html` — homepage and embedded demo media
-- `docs.html` — HymmShot Public Beta documentation
-- `security.html` — official Microsoft Store and security reporting information
-- `privacy.html` — website privacy notice
-- `changelog.html` — Public Beta release notes
-- `version.json` — current product version
+The supplied site package does not currently contain a `CNAME` file, although GitHub Pages is documented here as using `hymmshot.com`. Verify the repository domain configuration before deployment; this rebuild intentionally does not invent or overwrite a `CNAME`.
