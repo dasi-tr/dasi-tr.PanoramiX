@@ -1,0 +1,23 @@
+# HymmShot
+
+> A growing family of focused screenshot tools for Windows, built by an independent developer. The current tools are HymmScroll for scrolling content and HymmStack for combining separate captures. Current tools run fully offline: nothing is uploaded and no account is needed.
+
+HymmShot is intended for a broad audience, not only technical users. Common workflows include legal and professional records, content editing and marketing, research and study, customer support, documentation, QA/development and everyday sharing. HymmScroll can capture long WhatsApp Web conversations as one continuous image.
+
+## Pages
+- [Home](https://hymmshot.com/index.md): what the family is, which tool fits which job, privacy model
+- [HymmScroll](https://hymmshot.com/hymmscroll.md): scrolling screenshots for Windows, in any app
+- [HymmStack](https://hymmshot.com/hymmstack.md): combine multiple screenshots into one image
+- [About](https://hymmshot.com/about.md): who builds the tools and how to get in touch
+
+## Current tools and downloads
+- [HymmScroll on Microsoft Store](https://apps.microsoft.com/detail/9n6580jqmpw8)
+- [HymmStack on Microsoft Store](https://apps.microsoft.com/detail/9p1lzh1rvsdb)
+
+## Optional
+- [Documentation](https://hymmshot.com/docs.html)
+- [Security](https://hymmshot.com/security.html)
+- [Privacy](https://hymmshot.com/privacy.html)
+- [Changelog](https://hymmshot.com/changelog.html)
+
+Contact: contact@hymmshot.com

@@ -1,12 +1,12 @@
 {
   "name": "HymmShot",
   "short_name": "HymmShot",
-  "description": "Scrolling screenshots for Windows with a built-in editor.",
+  "description": "Focused screenshot tools for Windows: HymmScroll and HymmStack.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#f6f9fb",
-  "theme_color": "#0b1728",
+  "background_color": "#f5f7fa",
+  "theme_color": "#0e1b2e",
   "icons": [
     {
       "src": "assets/icon-192.png",
