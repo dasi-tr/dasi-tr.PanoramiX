@@ -4,6 +4,10 @@
 
 HymmShot is intended for a broad audience, not only technical users. Common workflows include legal and professional records, content editing and marketing, research and study, customer support, documentation, QA/development and everyday sharing. HymmScroll can capture long WhatsApp Web conversations as one continuous image.
 
+## Keyboard shortcuts
+- HymmScroll: Ctrl + Shift + X — start a scrolling capture on Windows.
+- HymmStack: Ctrl + Shift + A — start a multi-area capture on Windows.
+
 ## Pages
 - [Home](https://hymmshot.com/index.md): what the family is, which tool fits which job, privacy model
 - [HymmScroll](https://hymmshot.com/hymmscroll.md): scrolling screenshots for Windows, in any app
