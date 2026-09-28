@@ -4,8 +4,11 @@
 
 Page: https://hymmshot.com/hymmstack/ · Microsoft Store: https://apps.microsoft.com/detail/9p1lzh1rvsdb · Contact: contact@hymmshot.com
 
+## Keyboard shortcut
+**Ctrl + Shift + A** starts a HymmStack capture on Windows.
+
 ## How it works
-1. Select an area: any part of any window.
+1. Press **Ctrl + Shift + A** to start HymmStack, then select an area: any part of any window.
 2. Add more: each capture can come from somewhere else.
 3. Combine: HymmStack turns the captures into one image.
 4. Finish: edit, blur, and copy or save the result.

@@ -18,6 +18,10 @@ Captures several separate areas, one after another, from different windows, apps
 - Page: https://hymmshot.com/hymmstack/
 - Microsoft Store: https://apps.microsoft.com/detail/9p1lzh1rvsdb
 
+## Keyboard shortcuts
+- **HymmScroll:** `Ctrl + Shift + X` starts a scrolling capture on Windows.
+- **HymmStack:** `Ctrl + Shift + A` starts a multi-area capture on Windows.
+
 ## Built-in editor (both tools)
 Blur and pixelate private details, highlight, pen, eraser, arrows and shapes, text notes, crop, undo and redo. Export: copy to clipboard, save as an image, or export as PDF. HymmScroll can export a long capture as one continuous single-page PDF.
 

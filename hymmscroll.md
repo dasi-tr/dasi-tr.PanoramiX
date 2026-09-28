@@ -4,8 +4,11 @@
 
 Page: https://hymmshot.com/hymmscroll/ · Microsoft Store: https://apps.microsoft.com/detail/9n6580jqmpw8 · Currently free · Contact: contact@hymmshot.com
 
+## Keyboard shortcut
+**Ctrl + Shift + X** starts a HymmScroll capture on Windows.
+
 ## How it works
-1. Start a capture and drag to select the scrollable area.
+1. Press **Ctrl + Shift + X** to start HymmScroll, then drag to select the scrollable area.
 2. Scroll through the content at your own pace; you decide what is included and where it ends.
 3. Press Enter or Finish. The editor opens with one continuous image.
 
